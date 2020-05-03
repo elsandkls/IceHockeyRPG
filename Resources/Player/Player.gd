@@ -28,7 +28,7 @@ func _physics_process(delta):
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 		
 	velocity = velocity.clamped(MAX_SPEED)
-	move_and_collide(velocity  * delta)
+	velocity = move_and_slide(velocity)
 	
 	# Lesson 1
 	# Basic Keyboard action control - no diagonals	
@@ -53,9 +53,6 @@ func _physics_process(delta):
 	#	velocity.y = 0
 		
 	#move_and_collide(velocity * delta)
-
-
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
