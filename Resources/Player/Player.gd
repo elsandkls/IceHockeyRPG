@@ -1,9 +1,9 @@
 extends KinematicBody2D
 
 # Constants
-const MAX_SPEED = 100
-const ACCELERATION = 200
-const FRICTION = 400
+const MAX_SPEED = 80
+const ACCELERATION = 500
+const FRICTION = 500
 
 # Variables
 var velocity = Vector2.ZERO 
@@ -12,10 +12,9 @@ var input_vector = Vector2.ZERO
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	print ("Hello World")
-	
 
+# note to self delta is 1/60th of a second.
 func _physics_process(delta):
-	
 	# Lesson 2
 	# analog dpad or stick control - includes diagonals
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
@@ -23,10 +22,14 @@ func _physics_process(delta):
 	input_vector = input_vector.normalized()
 	
 	if input_vector != Vector2.ZERO:
-		velocity += input_vector * ACCELERATION * delta
+		velocity = velocity.move_toward(input_vector * MAX_SPEED, ACCELERATION * delta)
+		print(velocity)
 	else:
-		velocity = Vector2.ZERO
+		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 		
+	velocity = velocity.clamped(MAX_SPEED)
+	move_and_collide(velocity  * delta)
+	
 	# Lesson 1
 	# Basic Keyboard action control - no diagonals	
 	#if Input.is_action_pressed("ui_right"):
@@ -49,7 +52,7 @@ func _physics_process(delta):
 	#	print ("No Up or Down Key Pressed")
 	#	velocity.y = 0
 		
-	move_and_collide(velocity * delta)
+	#move_and_collide(velocity * delta)
 
 
 
