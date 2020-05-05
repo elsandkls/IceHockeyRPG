@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRLIN-1.9.0.1" Device="southworth-LIFEBOOK-T732" Modified="2020-05-03 22:10:09 +0000" ModID="61B78716-9289-48D6-934C-BA5A809D2E10">
+    <Binder>
+        <BinderItem ID="0" UUID="75BB9708-375C-4B32-8EA8-8666557992B3" Created="2020-04-27 13:53:11 +0000" Modified="2020-04-27 13:53:11 +0000" Type="DraftFolder">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="3" UUID="311F2535-50DA-4CB5-B0C2-138CA2A32E5F" Created="2020-04-27 13:53:11 +0000" Modified="2020-05-03 20:50:28 +0000" Type="Text">
+                    <Title>Abbreviated Game Design Documentation</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>132,132</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="4" UUID="356E56FD-6EDC-49D8-A7C6-5BE35130CDF3" Created="2020-05-03 20:40:24 +0000" Modified="2020-05-03 20:49:37 +0000" Type="Text">
+                    <Title>Test Plan for Commericial Release</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,127</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="5" UUID="AB0B9BD3-25BB-4540-A342-57A4CA649654" Created="2020-05-03 20:42:04 +0000" Modified="2020-05-03 20:49:44 +0000" Type="Text">
+                    <Title>Rapid Prototype Implementation Proposal</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>133,133</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="9629D063-1466-4037-B58B-61202A86D018" Created="2020-04-27 13:53:11 +0000" Modified="2020-04-27 13:53:11 +0000" Type="ResearchFolder">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="EE521B19-2171-48CE-BACB-E4E211D2EADC" Created="2020-04-27 13:53:11 +0000" Modified="2020-04-27 13:53:11 +0000" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.752941 0.752941 1.000000">Concept</Label>
+            <Label ID="1" Color="1.000000 0.752941 0.752941">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">N/A</Status>
+            <Status ID="1">To Do</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <Collections>
+        <Collection Type="Binder" ID="1320e653-0a53-4044-ab58-f703f5660ad4" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="be112588-ca86-4e3e-a770-9f4fd122c4c5" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No"></SearchSettings>
+        </Collection>
+    </Collections>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
+    </ProjectTargets>
+    <PrintSettings PaperType="Letter" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
