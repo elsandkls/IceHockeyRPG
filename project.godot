@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="HockeyRPG"
+config/name="IceHockeyRPG"
 run/main_scene="res://Resources/World/World.tscn"
 config/icon="res://icon.png"
 
