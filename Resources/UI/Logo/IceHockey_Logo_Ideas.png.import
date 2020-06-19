@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/IceHockey_Logo_Ideas.png-56dd74700b5f6f82a14f9af6937543de.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Resources/UI/character_sheet.LARGE.jpg"
+source_file="res://Resources/UI/Logo/IceHockey_Logo_Ideas.png"
+dest_files=[ "res://.import/IceHockey_Logo_Ideas.png-56dd74700b5f6f82a14f9af6937543de.stex" ]
+
 [params]
 
 compress/mode=0

@@ -9,7 +9,7 @@
 [node name="World" type="Node2D"]
 
 [node name="Background_Ice" type="Sprite" parent="."]
-position = Vector2( 160, 92 )
+position = Vector2( 176, 80 )
 scale = Vector2( 0.112, 0.0666667 )
 texture = ExtResource( 4 )
 
