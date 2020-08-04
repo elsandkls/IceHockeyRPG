@@ -7,9 +7,10 @@
 [ext_resource path="res://Resources/Backgrounds/IceHockeyDiagramBG.png" type="Texture" id=5]
 
 [node name="World" type="Node2D"]
+scale = Vector2( 5, 5 )
 
 [node name="Background_Ice" type="Sprite" parent="."]
-position = Vector2( 168, 80 )
+position = Vector2( 163.2, 96 )
 scale = Vector2( 0.112, 0.0666667 )
 texture = ExtResource( 4 )
 
